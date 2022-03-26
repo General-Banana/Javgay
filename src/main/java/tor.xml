@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.6.0_02" class="java.beans.XMLDecoder"> 
+ <object class="name.panitz.ludens.strategy.Tournament"> 
+  <void property="ps"> 
+   <void method="add"> 
+    <object class="name.panitz.ludens.strategy.TournamentPlayer"> 
+     <void property="description"> 
+      <string>optimized agent using 
+      alpha-beta search</string> 
+     </void> 
+     <void property="name"> 
+      <string>Manuel Kasten</string> 
+     </void> 
+     <void property="player"> 
+      <object class="de.fhwiesbaden.mkast001.ki.connect4.Ki"/> 
+     </void> 
+     <void property="points"> 
+      <int>0</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="name.panitz.ludens.strategy.TournamentPlayer"> 
+     <void property="description"> 
+      <string>agent using alpha-beta search</string> 
+     </void> 
+     <void property="name"> 
+      <string>Sven Eric Panitz</string> 
+     </void> 
+     <void property="player"> 
+      <object class="name.panitz.ludens.strategy.ConnectFourPlayer"/> 
+     </void> 
+     <void property="points"> 
+      <int>0</int> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="name.panitz.ludens.strategy.TournamentPlayer"> 
+     <void property="description"> 
+      <string>agent using alpha-beta search</string> 
+     </void> 
+     <void property="name"> 
+      <string>Thorsten Lehnhoff, André Theiss</string> 
+     </void> 
+     <void property="player"> 
+      <object class="de.fhwiesbaden.athei002tlehn001.win4.Adapter"/> 
+     </void> 
+     <void property="points"> 
+      <int>0</int> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+ </object> 
+</java>
+

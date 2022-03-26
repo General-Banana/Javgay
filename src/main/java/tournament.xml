@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf8" ?>
+<players>
+  <player>
+    <class>de.fhwiesbaden.mkast001.ki.connect4.Ki</class>
+    <description>optimized agent using 
+      alpha-beta search</description>
+    <author>Manuel Kasten</author>
+  </player>
+  <player>
+    <class>name.panitz.ludens.strategy.ConnectFourPlayer</class>
+    <description>agent using alpha-beta search</description>
+    <author>Sven Eric Panitz</author>
+  </player>
+  <player>
+    <class>de.fhwiesbaden.athei002tlehn001.win4.Adapter</class>
+    <description>agent using alpha-beta search</description>
+    <author>Thorsten Lehnhoff, André Theiss</author>
+  </player>
+</players>
+
