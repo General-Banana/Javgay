@@ -1,0 +1,5 @@
+package Aborea;
+
+class AboreaKampf{
+
+}
